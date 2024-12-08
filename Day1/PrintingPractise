@@ -1,1 +1,28 @@
+# band Generator name-------------
+print("Welcome to band Generator Game")
+a = input("Enter the city you grew up in: ")
+b = input("Enter your pet name: ")
+print("How about this name: ",a+" "+b)
 
+
+OUTPUT----------
+Welcome to band Generator Game
+Enter the city you grew up in: Sitamarhi
+Enter your pet name: Roboda
+How about this name:  Sitamarhi Roboda
+
+# Fix the code below 👇-----------------
+
+print(Notes from Day 1")
+ print("The print statement is used to output strings")
+print("Strings are strings of characters"
+priint("String Concatenation is done with the + sign")
+print(("New lines can be created with a \ and the letter n")
+
+Answer-------------
+
+print("Notes from Day 1")
+print("The print statement is used to output strings")
+print("Strings are strings of characters")
+print("String Concatenation is done with the + sign")
+print("New lines can be created with a \ and the letter n")
