@@ -1,1 +1,32 @@
+----DAY 2 Code Challenge------
 
+BMI Calculator
+The body mass index (BMI) is a measure used in medicine to see if someone is underweight or overweight. 
+This is the formula used to calculate it:
+bmi is equal to the person's weight divided by the person's height squared.
+
+----Answer------
+height = 1.65 
+weight = 84
+# Write your code here.
+# Calculate the bmi using weight and height.
+bmi = weight/(height**2)    #added
+print(bmi)
+
+
+-----------Day 2 project----
+TIP CACULATOR
+
+print("Welcome to the Tip Calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("How much tip would you like to give? 10 12 15? "))
+split = int(input("How may people to split? "))
+Amount = round(((tip / 100) * bill +bill),2)
+print(f"Each people has to pay {Amount}")
+
+-OUTPUT---
+Welcome to the Tip Calculator!
+What was the total bill? $150.00
+How much tip would you like to give? 10 12 15? 12
+How may people to split? 5
+Each people has to pay 168.0
